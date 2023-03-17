@@ -2,10 +2,30 @@
 ### 📚 공부 내용 정리
 - 일요일 24시 이전까지 제출
 
-### PR 규칙
+### 👍 PR 규칙
 - 주제-주차-질문번호-답변자
 ex) 운영체제-1주차-1번-김세진
 
+
+### ✍️ 정리 방식
+1. 노션에 나와있는 기본 대주제, 대질문 : 수정X
+
+
+2. 대질문에 대한 꼬리 질문을 "탭 한 번 #### 질문 "으로 꼬리질문임을 표기
+ex) #### Q) 프로세스의 상태에 대해 설명해주세요.
+3. 그에 대한 답변은 " - " 로 답
+
+## 예시 텍스트
+<img width="793" alt="스크린샷 2023-03-17 오후 10 44 34" src="https://user-images.githubusercontent.com/67494004/225925751-1a67de91-8c94-4002-86ba-9b7c02a4e9f1.png">
+
+
+## 예시 이미지
+![KakaoTalk_Photo_2023-03-17-22-56-20](https://user-images.githubusercontent.com/67494004/225925452-57ebb6e5-c13d-4a99-9890-eb222d171ffd.jpeg)
+
+
+
+## 작성 완료 이미지
+<img width="1065" alt="image" src="https://user-images.githubusercontent.com/67494004/225922698-33387447-9427-4fe6-a3aa-8597f8107a5a.png">
 
 
 💦 참고
