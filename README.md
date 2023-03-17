@@ -53,7 +53,8 @@ ex) > 프로그램에 프로세스에 실행되는 과정을 설명해주세요.
 
 
 ## 작성 완료 이미지
-<img width="1065" alt="image" src="https://user-images.githubusercontent.com/67494004/225922698-33387447-9427-4fe6-a3aa-8597f8107a5a.png">
+<img width="1059" alt="스크린샷 2023-03-17 오후 11 52 47" src="https://user-images.githubusercontent.com/67494004/225940229-7843ecfb-7f08-40c0-9549-938a6cc9081a.png">
+
 
 
 💦 참고
