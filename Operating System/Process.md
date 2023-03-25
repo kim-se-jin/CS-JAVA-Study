@@ -9,6 +9,8 @@
 [멀티프로세스, 멀티스레드에 대해 설명해주세요.](#멀티프로세스-멀티스레드에-대해-설명해주세요)
 
 
+---
+
 ### 프로세스,스레드가 무엇인가요?
 <img width="600" src="https://user-images.githubusercontent.com/67494004/225917972-cbde23cc-a3ff-46eb-84e3-297ec565378c.png">
 
