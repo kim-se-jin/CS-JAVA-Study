@@ -62,6 +62,8 @@ i-node블록은 **메타데이터를 저장하기 위한 자료구조**로, 고�
 
 
 **색인 할당 (indexed allocation)**
+
+
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/34755287/57186870-72ac2900-6f21-11e9-8b3b-531b44ea89ce.png">
 
 
