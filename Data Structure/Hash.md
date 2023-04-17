@@ -20,22 +20,26 @@
   - 해시 충돌의 해결 방법은 크게 2가지로 구분합니다.
 
   
-  **Separate Chaining(분리 연결법)**
+  **Separate Chaining(분리 연결법)**   
   ![Image](https://i.imgur.com/7PTT8dT.png)
+  
   - 해시 충돌 시 추가적인 메모리를 사용해 **LinkedList** or **Tree** 를 이용해서 해결하는 방법
   - cf) 자바 8 이상에서는 데이터의 사이즈가 커지면 Tree를 이용하고, RB 트리를 이용해 Balanced 트리로 만듦
 
-  **Open Addressing(개방 주소법)**
+  **Open Addressing(개방 주소법)**   
   ![Image](https://i.imgur.com/IM4FA2h.png)
+  
   - chaining과 달리 한 버킷 당 들어갈 수 있는 value가 1개이다. 따라서, 해싱 이후 삽입 시에 이미 도출 된 hash value 버킷에 값이 있다면 다음 주소를 사용하는 방식으로 해결한다.
   - **Probing** : 해시 충돌 시 해시 테이블 내의 새로운 주소를 찾는 방법이다.
-    1. **Linear Probing(선형 탐사)**
-      ![Image](https://i.imgur.com/D1WrmZE.png)
+    1. **Linear Probing(선형 탐사)**   
+      <img src="https://i.imgur.com/D1WrmZE.png" width=200>
+      
       - 최초 해시값에 해당하는 버킷에 다른 데이터가 있다면 한칸씩 이동하여 해결한다.   
       **[문제]** : 특정 해시 값 주변 버킷이 모두 채워져 있는 primary clustering에 취약하다.
 
-    2. **Quadratic Probing(제곱 탐사)**
-      ![Image](https://i.imgur.com/KqvA9b9.png)
+    2. **Quadratic Probing(제곱 탐사)**   
+      <img src="https://i.imgur.com/KqvA9b9.png" width=200>
+      
       - 고정 폭으로 이동하는 선형 탐사와 달리 폭이 제곱 수 만큼 늘어나 이동한다.   
       **[문제]** : 여러 개의 서로 다른 키들이 동일한 초기 해시값을 갖는 secondary clustering에 취약하다.
     
@@ -66,7 +70,6 @@
   #### Q) 해시 테이블을 사용했을 때의 탐색, 삽입, 삭제에 대한 시간복잡도
   - 삽입, 삭제, 탐색 모두 해시 충돌이 밣생하지 않았을 경우에는 O(1)의 시간복잡도가 발생합니다.
   - 해시 충돌 발생 시 해시 충돌을 해결하는 방법에 따라 시간복잡도가 달라질 수 있으며, Separate Chaining 방식을 이용하여 리스트 자료구조를 이용하여 해결했을 경우에는 O(n)까지 중가할 수 있고, 트리 자료구조를 이용하여 해결했을 경우에는 O(logn) 까지 증가할 수 있습니다.
-  - 개방 주소법을 선택했다면, O(해시 테이블의 사이즈) 만큼 길어질 수 있습니다.
 
   #### Q) 해시를 사용하는 이유에 대해서 설명해주세요.
   - 자원을 관리하는 관점에서 보면 많은 양의 데이터를 적은 양의 데이터를 관리하기 위해서 사용하고, key-value 를 통해서 찾고자 하는 데이터를 빠르게 찾고자 할 때 용이합니다.
