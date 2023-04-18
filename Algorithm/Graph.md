@@ -293,7 +293,7 @@ public class Main {
     - 따라서 정점 개수가 적을 때에도 동적 프로그래밍 방식으로 한 번에 최단 경로를 구하므로 **시간복잡도가 `O(V^3)`으로 고정**됩니다. 
     - 반면에 **다익스트라 알고리즘**은 시작 노드로부터 각 정점까지의 최단 경로를 그리디하게 선택하면서 구하므로, 정점 개수만큼 반복하면서 각 정점을 방문해야 하기 때문에 **시간복잡도가 `O(V*ElogV)`가** 될 수 있습니다.
     
- <img width="819" alt="image" src="https://user-images.githubusercontent.com/67494004/231215019-dff87d5d-92b5-4e06-ba0e-013e9d8bc77d.png">
+ <img width="819" alt="image" src="https://user-images.githubusercontent.com/67494004/232208681-11b9beb6-f014-4272-82b8-5dcb5da4a533.png">
     
     
     
