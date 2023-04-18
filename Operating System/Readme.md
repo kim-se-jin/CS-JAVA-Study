@@ -1,7 +1,8 @@
 # 운영체제
 
 # CPU Sheduling
-[Process Sheduling 알고리즘에는 어떤 것들이 있나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#process-sheduling-알고리즘에는-어떤-것들이-있나요)   
+[Process Sheduling 알고리즘에는 어떤 것들이 있나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#process-sheduling-알고리즘에는-어떤-것들이-있나요)  
+
 [Q) 단기, 장기 , 중기 스케줄러가 무엇인가요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#q-단기-장기--중기-스케줄러가-무엇인가요)   
 - [Q-1) 중기 스케줄러 동작방식에 대해 설명해주세요](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#q-중기-스케줄러-동작방식에-대해-설명해주세요)   
 - [Q-2) 장기 스케줄러와 단기스케줄러의 실행속도는 얼마나 차이가 날까요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#q-장기-스케줄러와-단기스케줄러의-실행속도는-얼마나-차이가-날까요)   
@@ -31,3 +32,25 @@
 [Q) 각 자원의 우선순위, CPU대기시간 등의 내용들은 어디에 저장될까요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#q-각-자원의-우선순위-cpu대기시간-등의-내용들은-어디에-저장될까요)   
 
 [Q) CPU가 여러개일때의 스케줄링 기법에대해 설명해주세요](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/CPU%20Sheduling.md#q-cpu가-여러개일때의-스케줄링-기법에대해-설명해주세요)   
+
+---
+
+# [Cache Memory](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#cache-memory)   
+
+[캐시메모리 및 메모리 계층성에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#캐시메모리-및-메모리-계층성에-대해서-설명해주세요)   
+
+[Q) L1, L2, L3 캐시 메모리에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-l1-l2-l3-캐시-메모리에-대해서-설명해주세요)   
+- [Q) L1, L2, L3 캐시 메모리는 CPU 내부 어디에 위치하나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-l1-l2-l3-캐시-메모리는-cpu-내부-어디에-위치하나요)   
+- [Q) 메모리 계층을 분류한 이유와 이점에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-메모리-계층을-분류한-이유와-이점에-대해서-설명해주세요)   
+
+[Q) 캐시는 데이터를 어떻게 관리하는지 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시는-데이터를-어떻게-관리하는지-설명해주세요)   
+- [Redis의 캐시 전략 4가지](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시는-데이터를-어떻게-관리하는지-설명해주세요)   
+
+[Q) 캐시의 지역성에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시의-지역성에-대해서-설명해주세요)   
+- [Q) 캐시의 지역성을 기반으로, 이차원 배열을 탐색했을 때의 성능 차이에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시의-지역성을-기반으로-이차원-배열을-탐색했을-때의-성능-차이에-대해서-설명해주세요)   
+  - L1 캐시는 세부적인 영역으로 추가적으로 나누어지는데, 이에 대해서 설명해주세요.
+  
+[Q) 캐시 메모리와 메인 메모리의 매핑 방식에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시-메모리와-메인-메모리의-매핑-방식에-대해서-설명해주세요)   
+
+[Q) 캐시 동기화에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시-동기화에-대해서-설명해주세요)   
+
