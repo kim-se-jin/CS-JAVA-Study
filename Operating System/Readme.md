@@ -87,6 +87,28 @@
 - [Q-2) 재진입성 (Reenterant) 개념에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-2-재진입성-reenterant-개념에-대해-설명해주세요)   
 
 ---
+
+#[Deadlock](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#deadlock)  
+
+[데드락에 대해 설명해주세요](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#데드락에-대해-설명해주세요)  
+
+[Q) 데드락이 발생하는 조건에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-데드락이-발생하는-조건에-대해서-설명해주세요)  
+
+[Q) 각각의 조건들에 대한 예방 방법을 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-각각의-조건들에-대한-예방-방법을-설명해주세요)  
+
+[Q) 데드락을 해결하기 위한 방법 중 회복에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-데드락을-해결하기-위한-방법-중-회복에-대해서-설명해주세요)  
+
+[Q) 데드락이 발생하는 4가지 조건 중 왜 3 가지 조건을 만족하면 데드락이 발생하지 않는지에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-데드락이-발생하는-4가지-조건-중-왜-3-가지-조건을-만족하면-데드락이-발생하지-않는지에-대해서-설명해주세요)  
+
+[Q) 자바에서 데드락이 발생할 수 있을까요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-자바에서-데드락이-발생할-수-있을까요)  
+
+- [Q) synchronized에 대해서 간략하게 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-synchronized에-대해서-간략하게-설명해주세요)  
+
+[Q) 현대 운영체제에서는 데드락 문제를 어떻게 해결하고 있는지 선택해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-현대-운영체제에서는-데드락-문제를-어떻게-해결하고-있는지-선택해주세요)  
+
+[Q) 데드락이 발생하는 시나리오](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/Deadlock.md#q-데드락이-발생하는-시나리오)  
+
+---
 # [Cache Memory](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#cache-memory)   
 
 [캐시메모리 및 메모리 계층성에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#캐시메모리-및-메모리-계층성에-대해서-설명해주세요)   
