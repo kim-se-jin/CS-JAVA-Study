@@ -54,7 +54,7 @@
 
 ---
 
-#[Critical Section](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#cs-java-studyoperating-systemcritical-sectionmd)   
+# [Critical Section](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#cs-java-studyoperating-systemcritical-sectionmd)   
 [임계구역 문제가 무엇인 지 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#임계구역-문제가-무엇인-지-설명해주세요)   
 [Q) 임계구역 문제를 해결하기 위한 조건을 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계구역-문제를-해결하기-위한-조건을-말해주세요)   
 - [Q) 임계구역을 해결하기 위한 동기화 기법을 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계구역을-해결하기-위한-동기화-기법을-말해주세요)   
