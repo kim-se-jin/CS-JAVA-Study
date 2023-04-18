@@ -66,6 +66,7 @@
   
 [Q) IPC의 여러가지 통신 중 가장 기억에 남는 것을 말해주세요. (Process part)](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-ipc의-여러가지-통신-중-가장-기억에-남는-것을-말해주세요-process-part)   
 - [Q-1) 소켓 통신에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-소켓-통신에-대해-설명해주세요)   
+
 [Q) 동기화를 위한 하드웨어 명령어 2가지를 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-동기화를-위한-하드웨어-명령어-2가지를-말해주세요)   
 - [(+) 소프트웨어적 해결 방식의 문제점 (HW 명령어 존재 이유)](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#-소프트웨어적-해결-방식의-문제점-hw-명령어-존재-이유)   
 - [(+) SW적 해결방식은 무엇인가요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#-sw적-해결방식은-무엇인가요)   
