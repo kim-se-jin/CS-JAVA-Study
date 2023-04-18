@@ -54,6 +54,37 @@
 
 ---
 
+#[Critical Section](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#cs-java-studyoperating-systemcritical-sectionmd)   
+[임계구역 문제가 무엇인 지 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#임계구역-문제가-무엇인-지-설명해주세요)   
+[Q) 임계구역 문제를 해결하기 위한 조건을 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계구역-문제를-해결하기-위한-조건을-말해주세요)   
+- [Q) 임계구역을 해결하기 위한 동기화 기법을 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계구역을-해결하기-위한-동기화-기법을-말해주세요)   
+- [Q-1) 세마포어는 여러개의 프로세스, 스레드를 허용하는데 이 방식과 용어에 대해 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-세마포어는-여러개의-프로세스-스레드를-허용하는데-이-방식과-용어에-대해-말해주세요)   
+    - [Q-1-1) Binary Semaphore란?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-1-binary-semaphore란)   
+  - [Q-2) 이진 세마포어와 뮤텍스는 같은 것이라고 볼 수 있나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-2-이진-세마포어와-뮤텍스는-같은-것이라고-볼-수-있나요)   
+  - [(+) 세마포어가 해결해주는 문제](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#-세마포어가-해결해주는-문제)   
+  
+[Q) IPC의 여러가지 통신 중 가장 기억에 남는 것을 말해주세요. (Process part)](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-ipc의-여러가지-통신-중-가장-기억에-남는-것을-말해주세요-process-part)   
+- [Q-1) 소켓 통신에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-소켓-통신에-대해-설명해주세요)   
+[Q) 동기화를 위한 하드웨어 명령어 2가지를 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-동기화를-위한-하드웨어-명령어-2가지를-말해주세요)   
+- [(+) 소프트웨어적 해결 방식의 문제점 (HW 명령어 존재 이유)](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#-소프트웨어적-해결-방식의-문제점-hw-명령어-존재-이유)   
+- [(+) SW적 해결방식은 무엇인가요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#-sw적-해결방식은-무엇인가요)   
+  - [Q-1) test&set 진행 시 Polling을 계속하며 상태를 계속해서 확인하는 용어를 뭐라고 하나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-testset-진행-시-polling을-계속하며-상태를-계속해서-확인하는-용어를-뭐라고-하나요)   
+  
+[Q) 임계영역 문제 방지 조건 중 "상호배제" 조건을 만족하기 위해 interrupt를 사용하는 것이 가능할까요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계영역-문제-방지-조건-중-상호배제-조건을-만족하기-위해-interrupt를-사용하는-것이-가능할까요)   
+
+[Q) 임계구역 조건이 지켜지지 않으면 발생하는 문제를 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-임계구역-조건이-지켜지지-않으면-발생하는-문제를-말해주세요)   
+- [Q-1) 두 개 이상의 프로세스, 스레드가 공유 자원에 접근해서 일어나는 문제 상황에 대한 용어를 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-두-개-이상의-프로세스-스레드가-공유-자원에-접근해서-일어나는-문제-상황에-대한-용어를-말해주세요)   
+- [Q-2) race condition을 방지하기 위한 방법을 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-2-race-condition을-방지하기-위한-방법을-말해주세요)   
+  
+[Q) JAVA, Spring 에서 데이터 정합성 문제가 발생했던 경험과, 있다면 해결 경험도 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-java-spring-에서-데이터-정합성-문제가-발생했던-경험과-있다면-해결-경험도-말해주세요)   
+- [Q-1) 동시성 문제와 데이터 정합성 문제의 차이를 말해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-동시성-문제와-데이터-정합성-문제의-차이를-말해주세요)   
+- [Q-2) 트랜잭션과 더불어서 데이터 정합성 문제에 대해 설명해주세요. (DB part)](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-2-트랜잭션과-더불어서-데이터-정합성-문제에-대해-설명해주세요-db-part)   
+  
+[Q) Thread-safe에 대해 어떤 의미인지 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-thread-safe에-대해-어떤-의미인지-설명해주세요)   
+- [Q-1) Thread-safe를 구현할 수 있는 방법에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-1-thread-safe를-구현할-수-있는-방법에-대해-설명해주세요)   
+- [Q-2) 재진입성 (Reenterant) 개념에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Critical%20Section.md#q-2-재진입성-reenterant-개념에-대해-설명해주세요)   
+
+---
 # [Cache Memory](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#cache-memory)   
 
 [캐시메모리 및 메모리 계층성에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#캐시메모리-및-메모리-계층성에-대해서-설명해주세요)   
