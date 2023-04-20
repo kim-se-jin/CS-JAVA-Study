@@ -127,3 +127,32 @@
 
 - [Q) 캐시 동기화에 대해서 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/Operating%20System/Cache%20Memory%20%26%20Memory%20Layered.md#q-캐시-동기화에-대해서-설명해주세요)   
 
+---
+
+# [File System](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#file-system)  
+
+- [Q) 유닉스 파일시스템의 i-node 에 관해 간략하게 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-유닉스-파일시스템의-i-node-에-관해-간략하게-설명해주세요)  
+
+  - [Q) 파일시스템과 디스크 개념을 연결해서 파일 시스템이 필요한 이유를 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-파일시스템과-디스크-개념을-연결해서-파일-시스템이-필요한-이유를-설명해주세요)  
+
+- [Q) 파일 시스템의 Super Block 에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-파일-시스템의-super-block-에-대해-설명해주세요)  
+
+- [Q) 블록 단위로 불러오고 나서 흩어져 있는 블록들에 파일을 불러와야 합니다. 파일을 할당하는 방식 중 연결 할당 방식에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-블록-단위로-불러오고-나서-흩어져-있는-블록들에-파일을-불러와야-합니다-파일을-할당하는-방식-중-연결-할당-방식에-대해-설명해주세요)  
+
+- [FAT(File Allocation Table) 시스템](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#fatfile-allocation-table-시스템)  
+
+  - [Q) 파일 할당 시스템도 순서대로 찾아가는 식으로 파일을 탐색, 연결리스트다 보니까 속도가 느린데 이런 부분은 파일 할당 시스템이 어떻게 해결하나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-파일-할당-시스템도-순서대로-찾아가는-식으로-파일을-탐색-연결리스트다-보니까-속도가-느린데-이런-부분은-파일-할당-시스템이-어떻게-해결하나요)  
+
+- [Q) 어떤 운영체제를 사용하고 계신가요? -> 맥은 어떤 파일 시스템을 사용하나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-어떤-운영체제를-사용하고-계신가요---맥은-어떤-파일-시스템을-사용하나요)  
+
+  - [Q) 다양한 파일 시스템 중 제일 잘 알고 있는 파일 시스템에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-다양한-파일-시스템-중-제일-잘-알고-있는-파일-시스템에-대해-설명해주세요)  
+
+- [Q) File Descriptor 에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-file-descriptor-에-대해-설명해주세요)  
+
+  - [Q) File Descriptor VS i-node](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-file-descriptor-vs-i-node)  
+
+- [Q) i-node에 파일이 저장되는 방식에 대해 설명해주세요.](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-i-node에-파일이-저장되는-방식에-대해-설명해주세요)  
+
+- [Q) 유닉스 아이노드 크기가 몇 바이트로 이루어져있는 지 알고 계신가요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-유닉스-아이노드-크기가-몇-바이트로-이루어져있는-지-알고-계신가요)  
+
+- [Q) 섹터 단위가 512byte인데 파일이 412byte라 100byte가 남으면 어떤 문제가 발생하나요?](https://github.com/kim-se-jin/CS-JAVA-Study/blob/sejin/Operating%20System/File%20System.md#q-섹터-단위가-512byte인데-파일이-412byte라-100byte가-남으면-어떤-문제가-발생하나요)  
