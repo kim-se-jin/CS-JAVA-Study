@@ -1,5 +1,5 @@
 # Wrapper
-### Wrapper 클래스란
+### Wrapper 클래스란 
   * **기본 자료타입(Primitive Type)을 객체로 다루기 위해서 사용하는 클래스**를 말합니다.
 
   #### Q) Wrapeer 클래스는 언제 사용하는가
