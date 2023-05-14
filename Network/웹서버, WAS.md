@@ -100,8 +100,8 @@
     - 서버의 현재 연결 상태와 응답시간을 모두 고려하여 트래픽을 배분합니다. 가장 적은 연결 상태와 가장 짧은 응답 시간을 보이는 서버에 우선적으로 배분하는 방식입니다.
 
 ### 참고 자료
-[Web Server VS WAS](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EB%A6%AC)
-[NGINX](https://ssdragon.tistory.com/60)
-[Apache VS NGINX](https://velog.io/@deannn/Apache%EC%99%80-NginX-%EB%B9%84%EA%B5%90-%EC%B0%A8%EC%9D%B4%EC%A0%90)
-[Forward Proxy, Reverse Proxy](https://bcp0109.tistory.com/194)
-[로드 밸런싱](https://tecoble.techcourse.co.kr/post/2021-11-07-load-balancing/)
+[Web Server VS WAS](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EB%A6%AC)   
+[NGINX](https://ssdragon.tistory.com/60)   
+[Apache VS NGINX](https://velog.io/@deannn/Apache%EC%99%80-NginX-%EB%B9%84%EA%B5%90-%EC%B0%A8%EC%9D%B4%EC%A0%90)   
+[Forward Proxy, Reverse Proxy](https://bcp0109.tistory.com/194)   
+[로드 밸런싱](https://tecoble.techcourse.co.kr/post/2021-11-07-load-balancing/)   
