@@ -1,6 +1,6 @@
 # TCP/IP - Network Access Layer (OSI - Physical & Data Layer)
 
-![image](https://user-images.githubusercontent.com/76711238/236812544-7f7ae063-944c-4dd8-869c-3f6765e4db44.png)
+![image](https://github.com/kim-se-jin/CS-JAVA-Study/assets/76711238/008cd036-165d-481e-8f03-2d866c1b8866)
 
 - 물리적인 데이터의 전송을 담당하는 계층
 - 인터넷 계층과 달리 **같은 네트워크 안에서 데이터가 전송**됩니다.
@@ -31,6 +31,7 @@
 - 포인트 투 포인트(Point to Point) 간 신뢰성있는 전송을 보장하기 위한 계층
 - 신뢰성있는 전송을 위해 오류 검출 및 회복을 위한 오류 제어 기능 수행
 - 송수신측의 속도 차이 해결을 위해 흐름 제어 기능 수행
+
 |제목|내용| 
 |------|---| 
 |데이터 전송 단위|프레임(frame)| 
@@ -75,13 +76,11 @@
 - 트레일러는 데이터 뒤에 붙고, FCS(Frame Check Sequence)라고 부르기도 합니다.
 - FCS는 데이터 전송 도중 오류가 발생하는지 확인하는데 사용됩니다.
 - 다른 계층에선 단순히 헤더 하나씩만 추가되는데 데이터 링크에서는 FCS 가 추가적으로 붙습니다. 
-
 ![image](https://user-images.githubusercontent.com/76711238/236818056-3795767b-29bc-474a-95ab-eca30d058bab.png)
-
 
     ### Q-1) 각 계층에서의 데이터를 어떻게 부르는 지 설명해주세요.
     - 이미지 참조
-    ![image](https://user-images.githubusercontent.com/76711238/236815251-373e8061-9be0-4518-b6a5-bf179245d80f.png)
+![image](https://user-images.githubusercontent.com/76711238/236815251-373e8061-9be0-4518-b6a5-bf179245d80f.png)
 
 #### 사진 & 내용 출처
 

@@ -1,6 +1,6 @@
 # TCP/IP - Internet Layer (OSI - Network Layer)
 
-![image](https://user-images.githubusercontent.com/76711238/236812609-39af1fb8-35d7-474f-8bed-7f8058323eaf.png)
+![image](https://github.com/kim-se-jin/CS-JAVA-Study/assets/76711238/40469851-d375-4dfe-8a4f-493ea5f7e23d)
 
 - 네트워크 상에서 데이터의 전송을 담당하는 계층으로 서로 다른 네트워크 간의 통신을 가능하게 하는 역할을 수행합니다. (연결성 제공)
 - 단말을 구분하기 위해 논리적인 주소로 IP 주소를 할당하게 되고 이 IP 주소로 네트워크 상의 컴퓨터를 식별하여 주소를 지정할 수 있도록 합니다.
@@ -70,7 +70,8 @@ OSI : 3계층 네트워크 계층(Network Layer)
 ### Q) 네트워크 계층에서 어떻게 빠르고 안전하게 데이터를 운반하는지 설명해주세요.
 - 
    ### Q-1) 라우팅 알고리즘에 대해 설명해주세요.
-      - 1. **정적 라우팅**
+
+   - 1. **정적 라우팅**
          - 정적 라우팅은 라우팅 테이블에 경로를 수동으로 추가해야하는 프로세스입니다 .
          - **장점**
             - a. 수동으로 정책을 부여하기 때문에 라우터 CPU에 오버헤드가 없어진다.
@@ -80,7 +81,7 @@ OSI : 3계층 네트워크 계층(Network Layer)
             - b. 라우팅 정보가 수동으로 되어 있어 관리자가 실수로 인해 네트워크 정보를 잘 못 입력할 수 있는 인재가 발생할 수 있다. 즉, 네트워크 관리자가 사내 네트워크 구성을 정보를 잘 알고 있어야 한다.
             - c. 네트워크 구성 변경에 따라 end to end 트래픽이 라우팅이 되지 않을 때 백업 구성이 되지않아 관리자가 경로를 재구성할 때까지 사용할 수 없다. 
             
-      - 2. 동적 라우팅
+   - 2. 동적 라우팅
          - 동적 라우팅은 라우팅 테이블에서 경로의 현재 상태에 따라 경로를 자동으로 조정합니다.  
          - 동적 라우팅은 프로토콜을 사용하여 네트워크 대상과 도달하는 경로를 검색합니다.  
          - 하나의 경로가 다운되면 네트워크 대상에 도달하도록 자동 조정됩니다.
@@ -179,3 +180,5 @@ https://melonicedlatte.com/network/2020/04/28/201100.html
 https://velog.io/@hidaehyunlee/%EC%84%9C%EB%B8%8C%EB%84%B7%ED%8C%85subnetting%EC%9C%BC%EB%A1%9C-%EB%84%A4%ED%81%AC%EC%9B%8C%ED%81%AC%EB%A5%BC-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%98%EC%9E%90
 
 https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-IP-%EA%B8%B0%EC%B4%88-%EC%82%AC%EC%84%A4IP-%EA%B3%B5%EC%9D%B8IP-NAT-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A7%90-%EC%89%BD%EA%B2%8C-%EC%A0%95%EB%A6%AC#ip_%EC%A3%BC%EC%86%8C%EC%9D%98_%EA%B3%A0%EA%B0%88_%EC%9C%84%ED%97%98
+
+https://superbono-2020.tistory.com/60
