@@ -16,18 +16,18 @@
   - **X를 결정자, Y를 종속자**라고 한다.
   - 함수적 종속관계에는 **완전 함수적 종속, 부분 함수적 종속, 이행적 함수 종속**이 있습니다.
   1. **완전 함수적 종속**
-    ![완전 함수적 종속](사진)   
-    - 종속자가 기본키에만 종속되며, 기본키가 여러 속성으로 구성되어 있을 경우 기본키를 구성하는 모든 속성이 포함된 기본키의 부분집합에 종속된 경우
-    - 즉, 여러 속성으로 구성되어 있을 경우 어떠한 속성이 기본키의 최소성을 만족시키는 경우를 말한다.
+  ![완전 함수적 종속](https://github.com/bombo-dev/CS-JAVA-Study/assets/74203371/43e53522-4a00-4b50-9674-f53ee319e5da)   
+  - 종속자가 **기본키에만 종속되며, 기본키가 여러 속성으로 구성되어 있을 경우 기본키를 구성하는 모든 속성이 포함된 기본키의 부분집합에 종속**된 경우
+  - 즉, 여러 속성으로 구성되어 있을 경우 **어떠한 속성이 기본키의 최소성을 만족시키는 경우**를 말한다.
 
   2. **부분 함수적 종속(Partial Functional Dependency)**
-    ![부분 함수적 종속](사진)
-    - 릴레이션에서 종속자가 기본키가 아닌 다른 속성에 종속되거나, 기본키가 여러 속성으로 구성되어 있을 경우 기본키를 구성하는 속성 중 일부만 종속되는 경우
-    - 즉, 여러 속성으로 구성되어 있을 경우 어떠한 속성에 대해서 기본키의 최소성을 만족시키지 못하는 경우를 말한다.
+  ![부분 함수적 종속](https://github.com/bombo-dev/CS-JAVA-Study/assets/74203371/141efcb0-f4ae-4d7b-84a9-523772b07711)
+  - 릴레이션에서 종속자가 기본키가 아닌 다른 속성에 종속되거나, 기본키가 여러 속성으로 구성되어 있을 경우 기본키를 구성하는 속성 중 일부만 종속되는 경우
+  - 즉, 여러 속성으로 구성되어 있을 경우 **어떠한 속성에 대해서 기본키의 최소성을 만족시키지 못하는 경우**를 말한다.
   
   3. **이행 함수적 종속(Transitive Functional Dependency)**
-  ![이행 함수적 종속](사진)
-  - 릴레이션에서 X, Y, Z라는 3개의 속성이 있을 때 X -> Y, Y -> Z 라는 종속 관계가 있을 경우, X -> Z가 성립될 때를 말한다.
+  ![이행 함수적 종속](https://github.com/bombo-dev/CS-JAVA-Study/assets/74203371/2c653086-6361-42ac-ab16-b9010ddbc104)
+  - 릴레이션에서 X, Y, Z라는 3개의 속성이 있을 때 **X -> Y, Y -> Z 라는 종속 관계가 있을 경우, X -> Z가 성립될 때**를 말한다.
 
 ### 제 1 정규화
 ![제 1 정규형 위반](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNbQUm%2FbtqT18yag04%2FpTXJX3wB23ouk8az7EgWQ1%2Fimg.png)   
@@ -50,7 +50,7 @@
 ### BCNF 정규화
 ![BCNF 정규형 위반](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBN6xu%2FbtqT6IlqRF4%2FMvBoxYMxtgS1JT7t1AymnK%2Fimg.png)
 - **제 3정규형을 만족하는 테이블에 대해서 모든 결정자가 후보키가 되도록 테이블을 분해하는 것입니다.** 즉, 테이블 내 모든 속성이 유일성과 최소성을 만족하도록 만드는 정규화입니다.
-- 위 예시는 기본키가 학생번호 특강이름으로 이루어졌을 때, 학생번호 특강이름이 교수를 결정합니다. 하지만 교수가 한 가지 강의만 진행한다고 가정했을 때, 교수또한 특강이름의 결정자가 되지만 해당 테이블에서는 중복된 값이 발생해서 유일성을 위배하므로 후보키가 될 수 없습니다. 해당 테이블을 정규화를 수행하게 되면 다음과 같이 변하게 됩니다.
+- 위 예시는 기본키가 학생번호 특강이름으로 이루어졌을 때, 학생번호 특강이름이 교수를 결정합니다. 하지만 교수가 한 가지 강의만 진행한다고 가정했을 때, 교수또한 특강이름의 결정자가 되지만 해당 테이블에서는 중복된 값이 발생해서 유일성을 위배하므로 후보키가 될 수 없습니다. 해당 테이블을 정규화를 수행하게 되면 다음과 같이 변하게 됩니다.   
 ![BCNF 정규화 수행](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3cbHr%2Fbtq3mNylPan%2Fc6b2lBuH4OkdDNmrzGHWUk%2Fimg.png)
 
 ### Q) 프로젝트를 진행하면서 정규화 혹은 역정규화의 필요성을 느껴서 해보신 경험이 있다면 얘기해주세요.
@@ -66,7 +66,7 @@
   - 따라서, 정규화를 진행하는 것이 무조건적으로 좋다 라고 말하기는 어렵습니다.
 
 ### 참고 자료
-[정규화](https://mangkyu.tistory.com/110)
-[정규화2](https://code-lab1.tistory.com/48)
-[이상현상](https://code-lab1.tistory.com/47)
-[함수적 종속](https://dodo000.tistory.com/20)
+[[정규화]https://mangkyu.tistory.com/110](https://mangkyu.tistory.com/110)   
+[[정규화2]https://code-lab1.tistory.com/48](https://code-lab1.tistory.com/48)   
+[[이상현상]https://code-lab1.tistory.com/47](https://code-lab1.tistory.com/47)   
+[[함수적 종속]https://dodo000.tistory.com/20](https://dodo000.tistory.com/20)
