@@ -1,73 +1,39 @@
 # 📚 CS-JAVA-STUDY 😎
 
 > 👋 CS/JAVA 스터디에 오신 걸 환영합니다! <br></br>
-저희 스터디는 모의면접을 통한 면접 능력 향상, CS실력 향상에 초점을 두고 <br></br>
-23/3/13 ~ 23/5/24 약 2달간 스터디를 진행할 예정입니다. 
-
+저희 스터디는 23/3/13 ~ 23/5/24 약 2달간 모의면접을 통해 <br></br>
+면접 능력 향상, 탄탄한 컴퓨터 지식에 초점을 두고 <br></br>
+운영체제(3주) → 자료구조, 알고리즘(2주) → 자바(2주) → 네트워크(2주) → DB(2주)동안 공부한 내용을 정리했습니다.
 <br></br>
-### 📚 공부 내용 정리
-- **일요일 24시 이전까지 제출** 
-  - 월요일 00시 이후 ~ 차주 스터디 전 제출 : `지각`
-  - 차주 스터디 전 까지 미제출 : `무단결석`
+### 운영체제
+[CPU Sheduling](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/cpu%sheduling.md)   
+[Cache Memory & Memory Layered](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/cache%memory%&%memory%layered.md)   
+[Context Switching & PCB](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/context%switching%&%pcb.md)   
+[Critical Section](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/critical%section.md)   
+[Deadlock](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/deadlock.md)   
+[File System](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/file%system.md)   
+[Interrupt](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/interrupt.md)   
+[Page Replacement Algorithm](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/page%replacement%algorithm.md)   
+[Paging & Segmentation](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/paging%&%segmentation.md)   
+[Process](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/process.md)     
+[Synchronous & Asynchronous & blocking & nonblocking](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/synchronous%&%asynchronous%&%blocking%&%nonblocking.md)   
+[TLB, MMU](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/tlb,%mmu.md)   
+[Virtual Memory](https://github.com/kim-se-jin/CS-JAVA-Study/blob/main/operating%system/virtual%memory.md)  
+
+---   
+### 자료구조, 알고리즘
+
+
+---   
+### 자바
+
+
+---   
+### 네트워크
+
+
+---   
+### DB
 
 
 ---
-
-
-### 👍 COMMIT 및 PR 규칙
-- **주제-주차-질문번호-답변자** 로 표기
-  - COMMIT과 PR 동일
-  - ex) 운영체제-1주차-1번-김세진
-
-
-- **merge 후 수정**하게 된 경우에는 **-수정** 을 추가해주세요.
-  - ex) 운영체제-1주차-1번-김세진-수정
-
-
----
-
-
-### ✍️ 정리 방식
-- 스터디 진행하면서 나왔던 질문 및 꼬리질문에 대해 정리
-  - 대답한 질문 : 정리하여 대답 작성
-  - 몰랐던 질문 : 조사 및 상세한 답변 정리하여 작성
-
-
-#### 1. 노션에 나와있는 기본 대주제, 대질문 수정 X
-  - 미리 작성해뒀으므로 해당 내용은 수정X
-  - 충돌💥이 일어날 수 있으니 유의해주세요 
-
-
-#### 2. 대질문에 대한 질문&답 표기 방식 : 질문 : `탭 한 번 #### 질문 ` , 답 :  `-`  로 시작
-  - **꼬리의 꼬리 경우** ) **`탭 두 번 #### Q-1)`**
-  - **꼬리의 꼬리의 꼬리 질문** ) **`탭 두 번 #### Q-1-1)`**
-
-
-#### 3. 스터디 시  몰랐던 부분이나 이해가 가지 않았던 부분 " > " 를 사용
--  \> 프로그램에 프로세스에 실행되는 과정을 설명해주세요.
-- **3-답변)** 그에 대한 답변은 " - "로 시작하여 대답
-
-
-#### 4. 공부하시면서 참고하신 이미지가 있다면 같이 첨부해주시면 더 감사합니다 :-)
-- 이미지 사이즈가 너무 **큰** 경우
-  -  전체 화면 기준, **해당 이미지와 관련 답변란 최소 3줄 이상** 보이도록 설정해주세요
-  
-#### 5. 내용이 길어지는 경우 가독성을 위해 볼드체로 표기해주세요.
-- 볼드체 표기 방법 : `**텍스트**`
-- ex) 기본체 **볼드체** 
-
-
----
-### 아래는 이해를 돕기 위한 위 규칙을 적용한 예시입니다.
-
-## 예시 텍스트
-<img width="793" alt="스크린샷 2023-03-17 오후 10 44 34" src="https://user-images.githubusercontent.com/67494004/225925751-1a67de91-8c94-4002-86ba-9b7c02a4e9f1.png">
-
-
-## 예시 이미지
-![KakaoTalk_Photo_2023-03-17-22-56-20](https://user-images.githubusercontent.com/67494004/225925452-57ebb6e5-c13d-4a99-9890-eb222d171ffd.jpeg)
-
-
-
-## 작성 완료 이미지
-<img width="1059" alt="스크린샷 2023-03-17 오후 11 52 47" src="https://user-images.githubusercontent.com/67494004/225940229-7843ecfb-7f08-40c0-9549-938a6cc9081a.png">
